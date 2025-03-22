@@ -1,0 +1,8 @@
+# ninja log v6
+1	279	7642602550018506	CMakeFiles/projeto_comp_grafica.dir/main.cpp.obj	7486b8b74c12db93
+7	685	7642602550069040	CMakeFiles/projeto_comp_grafica.dir/C_/libs_c++/GLAD/src/glad.c.obj	d491b6622cac11e
+12	129	7642604266443181	projeto_comp_grafica.exe	b4f781ace44c9814
+5	279	7642607204922275	CMakeFiles/projeto_comp_grafica.dir/main.cpp.obj	7486b8b74c12db93
+279	434	7642607207668935	projeto_comp_grafica.exe	b4f781ace44c9814
+4	315	7642609647513722	CMakeFiles/projeto_comp_grafica.dir/main.cpp.obj	7486b8b74c12db93
+316	427	7642609650641104	projeto_comp_grafica.exe	b4f781ace44c9814

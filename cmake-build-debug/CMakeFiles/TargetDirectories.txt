@@ -1,0 +1,3 @@
+C:/workspaces/projeto_comp_grafica/cmake-build-debug/CMakeFiles/projeto_comp_grafica.dir
+C:/workspaces/projeto_comp_grafica/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/workspaces/projeto_comp_grafica/cmake-build-debug/CMakeFiles/rebuild_cache.dir
