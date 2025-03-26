@@ -1,8 +1,12 @@
 # ninja log v6
-1	279	7642602550018506	CMakeFiles/projeto_comp_grafica.dir/main.cpp.obj	7486b8b74c12db93
+18	1167	7644458978867267	CMakeFiles/projeto_comp_grafica.dir/main.cpp.obj	7486b8b74c12db93
 7	685	7642602550069040	CMakeFiles/projeto_comp_grafica.dir/C_/libs_c++/GLAD/src/glad.c.obj	d491b6622cac11e
-12	129	7642604266443181	projeto_comp_grafica.exe	b4f781ace44c9814
-5	279	7642607204922275	CMakeFiles/projeto_comp_grafica.dir/main.cpp.obj	7486b8b74c12db93
-279	434	7642607207668935	projeto_comp_grafica.exe	b4f781ace44c9814
-4	315	7642609647513722	CMakeFiles/projeto_comp_grafica.dir/main.cpp.obj	7486b8b74c12db93
-316	427	7642609650641104	projeto_comp_grafica.exe	b4f781ace44c9814
+1167	1273	7644458990350182	projeto_comp_grafica.exe	bd7af02624526b22
+28	1080	7644450192284061	CMakeFiles/projeto_comp_grafica.dir/desenho/axes/Axes.cpp.obj	dbc761242aef9e45
+22	92	7644458978907274	CMakeFiles/projeto_comp_grafica.dir/desenho/triangle/Triangle.cpp.obj	5c4cea6fe925088c
+2	268	7644460425520541	build.ninja	32b80f30b8624cd2
+26	185	7644458978943441	CMakeFiles/projeto_comp_grafica.dir/desenho/circle/Circle.cpp.obj	10d60159742fb612
+23	93	7644467811990758	CMakeFiles/projeto_comp_grafica.dir/desenho/triangle/Triangle.cpp.obj	5c4cea6fe925088c
+27	991	7644467812020773	CMakeFiles/projeto_comp_grafica.dir/desenho/cube/Cube.cpp.obj	3b471c05580ee2a7
+19	1340	7644467811950751	CMakeFiles/projeto_comp_grafica.dir/main.cpp.obj	7486b8b74c12db93
+1341	1453	7644467825166252	projeto_comp_grafica.exe	4269711bcca54f0c

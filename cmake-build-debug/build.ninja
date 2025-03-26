@@ -63,6 +63,34 @@ build CMakeFiles/projeto_comp_grafica.dir/C_/libs_c++/GLAD/src/glad.c.obj: C_COM
   OBJECT_DIR = CMakeFiles\projeto_comp_grafica.dir
   OBJECT_FILE_DIR = CMakeFiles\projeto_comp_grafica.dir\C_\libs_c++\GLAD\src
 
+build CMakeFiles/projeto_comp_grafica.dir/desenho/triangle/Triangle.cpp.obj: CXX_COMPILER__projeto_comp_grafica_unscanned_Debug C$:/workspaces/projeto_comp_grafica/desenho/triangle/Triangle.cpp || cmake_object_order_depends_target_projeto_comp_grafica
+  DEP_FILE = CMakeFiles\projeto_comp_grafica.dir\desenho\triangle\Triangle.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/libs_c++/GLFW/include -IC:/libs_c++/GLAD/include
+  OBJECT_DIR = CMakeFiles\projeto_comp_grafica.dir
+  OBJECT_FILE_DIR = CMakeFiles\projeto_comp_grafica.dir\desenho\triangle
+
+build CMakeFiles/projeto_comp_grafica.dir/desenho/axes/Axes.cpp.obj: CXX_COMPILER__projeto_comp_grafica_unscanned_Debug C$:/workspaces/projeto_comp_grafica/desenho/axes/Axes.cpp || cmake_object_order_depends_target_projeto_comp_grafica
+  DEP_FILE = CMakeFiles\projeto_comp_grafica.dir\desenho\axes\Axes.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/libs_c++/GLFW/include -IC:/libs_c++/GLAD/include
+  OBJECT_DIR = CMakeFiles\projeto_comp_grafica.dir
+  OBJECT_FILE_DIR = CMakeFiles\projeto_comp_grafica.dir\desenho\axes
+
+build CMakeFiles/projeto_comp_grafica.dir/desenho/circle/Circle.cpp.obj: CXX_COMPILER__projeto_comp_grafica_unscanned_Debug C$:/workspaces/projeto_comp_grafica/desenho/circle/Circle.cpp || cmake_object_order_depends_target_projeto_comp_grafica
+  DEP_FILE = CMakeFiles\projeto_comp_grafica.dir\desenho\circle\Circle.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/libs_c++/GLFW/include -IC:/libs_c++/GLAD/include
+  OBJECT_DIR = CMakeFiles\projeto_comp_grafica.dir
+  OBJECT_FILE_DIR = CMakeFiles\projeto_comp_grafica.dir\desenho\circle
+
+build CMakeFiles/projeto_comp_grafica.dir/desenho/cube/Cube.cpp.obj: CXX_COMPILER__projeto_comp_grafica_unscanned_Debug C$:/workspaces/projeto_comp_grafica/desenho/cube/Cube.cpp || cmake_object_order_depends_target_projeto_comp_grafica
+  DEP_FILE = CMakeFiles\projeto_comp_grafica.dir\desenho\cube\Cube.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/libs_c++/GLFW/include -IC:/libs_c++/GLAD/include
+  OBJECT_DIR = CMakeFiles\projeto_comp_grafica.dir
+  OBJECT_FILE_DIR = CMakeFiles\projeto_comp_grafica.dir\desenho\cube
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target projeto_comp_grafica
@@ -71,9 +99,9 @@ build CMakeFiles/projeto_comp_grafica.dir/C_/libs_c++/GLAD/src/glad.c.obj: C_COM
 #############################################
 # Link the executable projeto_comp_grafica.exe
 
-build projeto_comp_grafica.exe: CXX_EXECUTABLE_LINKER__projeto_comp_grafica_Debug CMakeFiles/projeto_comp_grafica.dir/main.cpp.obj CMakeFiles/projeto_comp_grafica.dir/C_/libs_c++/GLAD/src/glad.c.obj
+build projeto_comp_grafica.exe: CXX_EXECUTABLE_LINKER__projeto_comp_grafica_Debug CMakeFiles/projeto_comp_grafica.dir/main.cpp.obj CMakeFiles/projeto_comp_grafica.dir/C_/libs_c++/GLAD/src/glad.c.obj CMakeFiles/projeto_comp_grafica.dir/desenho/triangle/Triangle.cpp.obj CMakeFiles/projeto_comp_grafica.dir/desenho/axes/Axes.cpp.obj CMakeFiles/projeto_comp_grafica.dir/desenho/circle/Circle.cpp.obj CMakeFiles/projeto_comp_grafica.dir/desenho/cube/Cube.cpp.obj
   FLAGS = -g
-  LINK_LIBRARIES = -lglfw3  -lopengl32  -lgdi32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = -lglfw3  -lopengl32  -lgdi32  -lglu32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LC:/libs_c++/GLFW/lib   -LC:/libs_c++/GLAD/lib
   OBJECT_DIR = CMakeFiles\projeto_comp_grafica.dir
   POST_BUILD = cd .
